@@ -1,0 +1,33 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://st2.depositphotos.com/1605581/8381/i/450/depositphotos_83819270-stock-photo-blue-gradient-background.jpg');
+    background-size: cover;
+}
+
+.Cadastro{
+    width: 25rem;
+    height: 25rem;
+    border-radius: 5px;
+    padding: 1rem;
+    background-color: white;
+    margin: 1rem;
+}
+ /* Animação que vai ser realizada */
+ @keyframes fadeIn {
+    from {opacity: 0; transform: translateX(50px);}
+    to {opacity: 1; transform: translateX(0);}
+ }
+.titulo{
+    font-weight: bolder;
+    margin-bottom: 1.2rem;
+}
+
+.descricao{
+    color: grey;
+}
